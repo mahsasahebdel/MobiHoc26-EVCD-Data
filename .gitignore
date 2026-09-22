@@ -1,2 +1,28 @@
-*.csv
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local files not included in public repository
+additional_exps.ipynb
+nn_exps.ipynb
+test_exp.ipynb
+pfinalized/
 results/
+results_ul_sweep_one_capacity/
+ul_sweep_ml_only_stationwise/
+
+# Generated data/artifacts
+dataset/
+*.csv
+*.json
+*.pkl
+*.pt
